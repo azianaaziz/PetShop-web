@@ -1,65 +1,64 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package cn.techtutorial.model;
-
-/**
- *
- * @author mzhar
- */
+package com.petshop.model;
 
 public class User {
-	private int id;
-	private String name;
-	private String email;
-	private String password;
+    private int id;
+    private String name;
+    private String title;
+    private String details;
+    private String image;
 
-	public User() {
-	}
+    public User(String name, String title, String details, String image) {
+        this.name = name;
+        this.title = title;
+        this.details = details;
+        this.image = image;
+    }
 
-	public User(int id, String name, String email, String password) {
-		this.id = id;
-		this.name = name;
-		this.email = email;
-		this.password = password;
-	}
+    public User(int id, String name, String title, String details, String image) {
+        this.id = id;
+        this.name = name;
+        this.title = title;
+        this.details = details;
+        this.image = image;
+    }
 
-	public int getId() {
-		return id;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public String getPassword() {
-		return password;
-	}
+    public String getDetails() {
+        return details;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    public void setDetails(String details) {
+        this.details = details;
+    }
 
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + "]";
-	}
-	
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }
