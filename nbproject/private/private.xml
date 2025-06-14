@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/cart.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/model/User.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/com/petshop/servlet/ProductServlet.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/orders.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/com/petshop/servlet/LoginServlet.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/products.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/model/Cart.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/com/petshop/servlet/AdminProductList.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/redirect.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/servlet/AddToCartServlet.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/dao/OrderDao.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/servlet/CartOrderServlet.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/AdminListProducts.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/dao/ProductDao.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/com/petshop/model/Product.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/web/admin-login.jsp</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/com/petshop/model/adminDAO.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/model/Order.java</file>
+            <file>file:/C:/Users/USER/Downloads/PetShopProject/PetShop-web/src/java/cn/techtutorial/servlet/CheckoutPaymentServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
