@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 15, 2024, 10:56:07 PM
+    Author     : FAQIHAH
+*/
+
+/* Base settings for the body, setting font, background, and text colors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4fa; /* Very light gray */
+    color: #8f613e; /* Deep brown */
+    padding: 20px;
+}
+
+/* Header style to align text and set color */
+h1 {
+    color: #8f613e;
+    text-align: center;
+}
+
+/* Styling for the form, making it centered and visually appealing */
+form {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #b2a58d; /* Muted gold for soft shadow */
+    width: 100%;
+    max-width: 500px; /* Limiting maximum width for better appearance on larger screens */
+    margin: auto; /* Centering the form on the page */
+    display: grid;
+    gap: 10px; /* Spacing between elements within the form */
+}
+
+/* General input styling including text boxes, file inputs, and text areas */
+input[type="text"],
+input[type="file"],
+textarea, 
+input[type="submit"], 
+.button-primary, /* Adding button classes for unified styling */
+.button-secondary {
+    width: 100%; /* Ensuring inputs take the full width of their container */
+    padding: 8px;
+    border: 1px solid #cdbab2; /* Light pinkish tone for the border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Padding included in width */
+}
+
+/* Additional styling specifically for text areas */
+textarea {
+    height: 100px;
+    resize: vertical; /* Allowing vertical resize only */
+}
+
+/* Styling for submit and primary action buttons */
+input[type="submit"],
+.button-primary {
+    background-color: #e18b29; /* Bright orange */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+.button-primary:hover {
+    background-color: #b2a58d; /* Muted gold on hover */
+}
+
+/* Grid layout for form rows to align labels and inputs neatly */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Ratio for label to input width */
+}
+
+/* Label styling to right align and center vertically */
+label {
+    padding-right: 10px;
+    text-align: right;
+    display: flex;
+    align-items: center; /* Vertical centering of text */
+}
+
+/* Secondary button styles for less critical actions like reset or back */
+.button-secondary {
+    background-color: #cdbab2; /* Light pinkish tone */
+    color: #8f613e; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.button-secondary:hover {
+    background-color: #b2a58d; /* Muted gold on hover */
+}

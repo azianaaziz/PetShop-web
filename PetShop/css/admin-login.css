@@ -1,0 +1,122 @@
+body {
+    color: #8f613e;  
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('img/kucing1.jpg'); /* Ensure the path is correct */
+    background-size: cover; /* Covers the entire body */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Image does not scroll with the page */
+}
+
+/* Header and Footer styles */
+header, footer {
+    background-color: #b6895b; 
+    color: white;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+/* Styles for titles */
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px; /* Adjusted margin to ensure visibility of h2 */
+}
+
+/* Main container */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    padding-top: 60px; /* Padding adjusted to avoid overlap with fixed header */
+    padding-bottom: 60px; /* Padding for bottom to avoid overlap with footer */
+}
+
+/* Form styling */
+form {
+    background-color: white; /* Background of the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #cdbab2; /* Light brown */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #cdbab2; /* Light brown */
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #e18b29; /* Bright orange */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    align-self: center; /* Centers the button in the flex container (the form) */
+}
+
+input[type="submit"]:hover {
+    background-color: #b2a58d; /* Muted gold */
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    header, footer {
+        position: static; /* Make header and footer static in small screens */
+    }
+    main {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    form {
+        width: 90%;
+    }
+}

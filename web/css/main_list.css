@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 15, 2024, 10:04:27 PM
+    Author     : FAQIHAH
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4fa;
+    color: #8f613e;
+}
+h1 {
+    color: #8f613e;
+}
+a {
+    color: #e18b29;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #cdbab2;
+}
+th {
+    background-color: #b2a58d;
+    color: #f4f4fa;
+}
+td {
+    background-color: #ffffff;
+    color: #8f613e;
+}
+button {
+    background-color: #e18b29;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #b2a58d;
+}
+form {
+    display: inline;
+}
+
+.button-primary {
+    background-color: #e18b29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #b2a58d;
+}
+
+.button-logout {
+    background-color: #e18b29;  /* Or any color that fits your design */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    position: absolute;  /* Positioning it absolutely within its relative container */
+    top: 20px;            /* Distance from the top of the container */
+    right: 20px;          /* Distance from the right of the container */
+}
+
+.button-logout:hover {
+    background-color: #b2a58d;  /* Hover state color */
+}
